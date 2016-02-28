@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="gray"
+        android:gravity="center"
+        android:text="Édition d'événements "
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout177"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Titre Event"
+            android:inputType="text"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout122"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:hint="Date "
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/ed3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ville"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/ed4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Audio "
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/ed5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Image"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/ed6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Video"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude" />
+
+        <EditText
+            android:id="@+id/ed7"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+
+            android:singleLine="true"></EditText>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Longitude" />
+
+        <EditText
+            android:id="@+id/ed8"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/ed9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description "
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Supp"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/pers_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perso"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/voir_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mes ajouts"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/dblist"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+    </ListView>
+
+</LinearLayout>
