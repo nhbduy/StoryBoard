@@ -3,7 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/AlarmTask.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/AndroidVideoPlayer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Carte.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/CelebrityEvent.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DBClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DetailEvent.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1827.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1830.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1847.java" charset="windows-1252" />
