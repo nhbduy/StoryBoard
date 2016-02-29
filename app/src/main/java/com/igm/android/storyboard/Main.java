@@ -1,15 +1,12 @@
 package com.igm.android.storyboard;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
@@ -25,7 +22,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class Main extends Activity {
 
     private static int RESULT_LOAD_IMAGE = 1;
     private static int RESULT_LOAD_AUDIO = 2;
@@ -189,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 /************************************************************************************************/
-                Intent intent = new Intent(MainActivity.this, personnage.class);
+                Intent intent = new Intent(Main.this, Personnage.class);
                 startActivity(intent);
 
 
@@ -204,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 /************************************************************************************************/
-                Intent intent = new Intent(MainActivity.this, mainvu.class);
+                Intent intent = new Intent(Main.this, MainVu.class);
                 startActivity(intent);
 
 
@@ -228,13 +225,13 @@ public class MainActivity extends AppCompatActivity {
         String ville = ville_ed.getText().toString();
 
 
-        db = new DBclass(this);
+        db = new DbClass(this);
         long num = 1;
         try {
             db.open();                    //titre, date,desc.....
 
 
-            num = db.insertmaster(a, b, a, b, desc, audio, image, video, lat, lon, ville);
+            num = db.insertMaster(a, b, a, b, desc, audio, image, video, lat, lon, ville);
 
             db.close();
         } catch (SQLException e) {
@@ -243,11 +240,11 @@ public class MainActivity extends AppCompatActivity {
             getData();
         }
         if (num > 0)
-            Toast.makeText(this, "Evenement Ajouté ", 2000).show();
+            Toast.makeText(this, "Evenement Ajouté ", Toast.LENGTH_SHORT).show();
         else if (num == -1)
-            Toast.makeText(this, "Error Duplicate value", 4000).show();
+            Toast.makeText(this, "Error Duplicate value", Toast.LENGTH_LONG).show();
         else
-            Toast.makeText(this, "Error while inserting", 2000).show();
+            Toast.makeText(this, "Error while inserting", Toast.LENGTH_SHORT).show();
     }
 
     public void getData() {
@@ -264,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
         videolist.clear();
 
 
-        db = new DBclass(this);
+        db = new DbClass(this);
         try {
             db.open();
             Cursor cur = db.getAllTitles();

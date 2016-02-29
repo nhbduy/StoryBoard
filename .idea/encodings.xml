@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DBClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/MainVu.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Personnage.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/PersonnageVu.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/animation" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/datesprojets.xml" charset="windows-1252" />
