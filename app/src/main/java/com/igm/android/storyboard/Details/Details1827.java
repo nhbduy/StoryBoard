@@ -180,14 +180,13 @@ public class Details1827 extends FragmentActivity implements TabListener {
 
 
             if (arg0 == 0) {
-                fragment = new EvenementFragment(titre, imagesevent, date, Description);
-
+                fragment = EvenementFragment.newInstance(titre, imagesevent, date, Description);
             }
             if (arg0 == 1) {
-                fragment = new FragmentPersonnages(nom, imagesperso, nationalite, ActionDat);
+                fragment = FragmentPersonnages.newInstance(nom, imagesperso, nationalite, ActionDat);
             }
             if (arg0 == 2) {
-//				fragment=new Carte(36.763226, 2.845073);
+//				fragment= new Carte(36.763226, 2.845073);
 
             }
             if (arg0 == 3) {

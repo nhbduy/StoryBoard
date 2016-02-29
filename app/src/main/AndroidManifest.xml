@@ -73,11 +73,11 @@
 
         <!--<activity
             android:name="com.igm.android.storyboard.Video"
-            android:label="Video"></activity>-->
+            android:label="Video" />-->
 
         <!--<activity
             android:name="com.igm.android.storyboard.AndroidVideoPlayer"
-            android:label="Video"></activity>-->
+            android:label="Video" />-->
 
         <activity
             android:name=".Details.Details1827"

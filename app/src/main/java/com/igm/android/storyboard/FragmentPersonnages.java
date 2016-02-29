@@ -19,14 +19,35 @@ public class FragmentPersonnages extends ListFragment {
     private String[] actionsda;
     private int cpt = 0;
 
+    public static FragmentPersonnages newInstance(String[] a, int[] b, String[] c, String[] d) {
+        FragmentPersonnages fp = new FragmentPersonnages();
 
-    public FragmentPersonnages(String[] a, int[] b, String[] c, String[] d) {
+        Bundle bundle = new Bundle();
 
-        this.countries = a;
+        bundle.putStringArray("countries", a);
+        bundle.putIntArray("flags", b);
+        bundle.putStringArray("currency", c);
+        bundle.putStringArray("actionsda", d);
+        bundle.putInt("cpt", a.length);
+
+        fp.setArguments(bundle);
+
+        /*this.countries = a;
         this.flags = b;
         this.currency = c;
         this.actionsda = d;
-        cpt = a.length;
+        cpt = a.length;*/
+
+        return fp;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        countries = getArguments().getStringArray("countries");
+        flags = getArguments().getIntArray("flags");
+        currency = getArguments().getStringArray("currency");
+        actionsda = getArguments().getStringArray("actionsda");
+        cpt = getArguments().getInt("cpt");
     }
 
     @Override

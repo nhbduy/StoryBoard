@@ -13,20 +13,47 @@ import java.util.List;
 
 public class EvenementFragment extends ListFragment {
 
-    private String[] titreevent;
-    private int[] imageevent;
-    private String[] dateevent;
-    private String[] descriptionevent;
+    private String[] titreEvent;
+    private int[] imageEvent;
+    private String[] dateEvent;
+    private String[] descriptionEvent;
     private int cpt = 0;
 
+    /*public EvenementFragment() {
+        // Required empty public constructor
 
-    public EvenementFragment(String[] a, int[] b, String[] c, String[] d) {
+    }*/
 
-        this.titreevent = a;
-        this.imageevent = b;
-        this.dateevent = c;
-        this.descriptionevent = d;
-        cpt = a.length;
+
+    public static EvenementFragment newInstance(String[] a, int[] b, String[] c, String[] d) {
+        EvenementFragment ef = new EvenementFragment();
+
+        Bundle bundle = new Bundle();
+
+        bundle.putStringArray("titreEvent", a);
+        bundle.putIntArray("imageEvent", b);
+        bundle.putStringArray("dateEvent", c);
+        bundle.putStringArray("descriptionEvent", d);
+        bundle.putInt("cpt", a.length);
+
+        ef.setArguments(bundle);
+
+        /*this.titreEvent = a;
+        this.imageEvent = b;
+        this.dateEvent = c;
+        this.descriptionEvent = d;
+        cpt = a.length;*/
+
+        return ef;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        titreEvent = getArguments().getStringArray("titreEvent");
+        imageEvent = getArguments().getIntArray("imageEvent");
+        dateEvent = getArguments().getStringArray("dateEvent");
+        descriptionEvent = getArguments().getStringArray("descriptionEvent");
+        cpt = getArguments().getInt("cpt");
     }
 
 
@@ -38,10 +65,10 @@ public class EvenementFragment extends ListFragment {
         v = super.onCreateView(inflater, container, savedInstanceState);
         for (int i = 0; i < cpt; i++) {
             HashMap<String, String> hm = new HashMap<String, String>();
-            hm.put("txt", "Titre evenement : " + titreevent[i]);
-            hm.put("cur", "Date evenement : " + dateevent[i]);
-            hm.put("flag", Integer.toString(imageevent[i]));
-            hm.put("actiondat", "Description : \n \n " + descriptionevent[i]);
+            hm.put("txt", "Titre evenement : " + titreEvent[i]);
+            hm.put("cur", "Date evenement : " + dateEvent[i]);
+            hm.put("flag", Integer.toString(imageEvent[i]));
+            hm.put("actiondat", "Description : \n \n " + descriptionEvent[i]);
             aList.add(hm);
 
         }
