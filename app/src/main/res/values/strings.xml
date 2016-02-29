@@ -1,4 +1,54 @@
 <resources>
     <string name="app_name">StoryBoard</string>
     <string name="action_settings">Settings</string>
+
+    <string name="detail">Details</string>
+    <string name="celebrity">Celebrity</string>
+
+    <string-array name="EventName">
+        <item>Event1</item>
+        <item>Event2</item>
+        <item>Event3</item>
+        <item>Event4</item>
+        <item>Event5</item>
+        <item>Event6</item>
+        <item>Event7</item>
+        <item>Event8</item>
+        <item>Event9</item>
+        <item>Event10</item>
+        <item>Event11</item>
+        <item>Event12</item>
+        <item>Event13</item>
+        <item>Event14</item>
+        <item>Event15</item>
+        <item>Event16</item>
+        <item>Event17</item>
+        <item>Event18</item>
+        <item>Event19</item>
+        <item>Event20</item>
+    </string-array>
+    <string-array name="EventDescription">
+        <item>Description1</item>
+        <item>Description2</item>
+        <item>Description3</item>
+        <item>Description4</item>
+        <item>Description5</item>
+        <item>Description6</item>
+        <item>Description7</item>
+        <item>Description8</item>
+        <item>Description9</item>
+        <item>Description10</item>
+        <item>Description11</item>
+        <item>Description12</item>
+        <item>Description13</item>
+        <item>Description14</item>
+        <item>Description15</item>
+        <item>Description16</item>
+        <item>Description17</item>
+        <item>Description18</item>
+        <item>Description19</item>
+        <item>Description20</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
