@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/AlarmTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/AndroidVideoPlayer.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DBClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1827.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1830.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1847.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1857.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1870.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1871.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1881.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1902.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1945.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1954.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1962.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/DetailsDepartColons.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/DetailsOuvertureDemo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/DetailsPrem.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/EvenementFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/FragmentPersonnages.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ListDates.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/MainVu.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/NotifyService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/PageAcceuil.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Personnage.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/PersonnageVu.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ScheduleClient.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ScheduleService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Settings.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/animation" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/datesprojets.xml" charset="windows-1252" />
