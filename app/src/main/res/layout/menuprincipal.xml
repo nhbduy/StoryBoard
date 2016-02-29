@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/accland"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/col1tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="ALGERIA Brief"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/col2tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="200dp"
+        android:text="L'encyclopédie sur l'Algérie"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/parcourirhist"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Parcourrir histoire"
+
+
+        />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Parametres"
+
+
+        />
+
+    <Button
+        android:id="@+id/ajout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ajouter evenement"
+
+        />
+
+
+</LinearLayout>

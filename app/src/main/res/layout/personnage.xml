@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="gray"
+        android:gravity="center"
+        android:text="Ã‰dition de Personnages "
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout177"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Titre EvÃ©nement"
+            android:inputType="text"
+            android:singleLine="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout122"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/p2"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.73"
+            android:hint="Nom Personnage"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PrÃ©nom Personnage"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Image"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Biographie"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/p6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Actions"
+            android:inputType="text"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supp"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/event_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/voir_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mes ajouts"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/dblist"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+    </ListView>
+
+</LinearLayout>
