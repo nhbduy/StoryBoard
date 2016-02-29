@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private Button pers_btn;
     private Button event_btn;
     private Button voir_btn;
-    private DBclass db;
+    private DbClass db;
 
     private ArrayList<String> collist_1;
     private ArrayList<String> collist_2;
