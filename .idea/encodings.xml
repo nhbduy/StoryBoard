@@ -5,7 +5,7 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/AndroidVideoPlayer.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Carte.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/CelebrityEvent.java" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DBClass.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DbClass.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/DetailEvent.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1827.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Details/Details1830.java" charset="windows-1252" />
@@ -26,13 +26,11 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ListDates.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/MainVu.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/NotifyService.java" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/PageAcceuil.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Personnage.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/PersonnageVu.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ScheduleClient.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/ScheduleService.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/igm/android/storyboard/Settings.java" charset="windows-1252" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/animation" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/datesprojets.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/details.xml" charset="windows-1252" />
@@ -54,6 +52,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/video.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/videoview.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/raw" charset="windows-1252" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
